@@ -4,6 +4,7 @@ This practise to find Anagrams from a dictionary has two versions:
 To run this version 1, follow as:
 
 hemil@hemil-Inspiron-13-7359:~/Realtor/Project$ javac AnagramFinder.java
+
 hemil@hemil-Inspiron-13-7359:~/Realtor/Project$ java AnagramFinder dictionary.txt loop
 
 Welcome to the Anagram Finder
@@ -20,6 +21,7 @@ executes "exit" command. This application would take only one input, a filepath 
 Run version 2 as follows:
 
 hemil@hemil-Inspiron-13-7359:~/Realtor/Project$ javac AnagramFinderProduction.java 
+
 hemil@hemil-Inspiron-13-7359:~/Realtor/Project$ java AnagramFinderProduction dictionary.txt 
 
 Welcome to the Anagram Finder
