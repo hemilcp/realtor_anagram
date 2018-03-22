@@ -21,7 +21,6 @@ public class AnagramFinder {
 	public static void main(String[] args){
 		
 		String filePath = args[0];
-	//	InputStream input = AnagramFinder.class.getResourceAsStream(filePath);
 	
 		InputStream input = null;
 
@@ -33,8 +32,7 @@ public class AnagramFinder {
 		}	
 		long startTime = new Date().getTime();
 		
-//		Set<String> dict = new HashSet<>();
-		
+
 		Map<String, List<String>> map = new HashMap<>();
 		
 		System.out.println("Welcome to the Anagram Finder");
@@ -43,7 +41,7 @@ public class AnagramFinder {
 		//Read the dictionary file till it has a word
 		try(Scanner scanner = new Scanner(input)){
 				while(scanner.hasNext()){
-//					dict.add(scanner.nextLine());
+
 
 				//For each word from dictionary, sort it and use it as a Hash (or key) to add the word in the corresponding list as value in the map.
 				// If there exist a word already, add the word in that list. Otherwise create a list and add the new word.
