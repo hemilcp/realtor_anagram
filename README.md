@@ -15,6 +15,7 @@ Execution finished in 552 ms
 
 loop, polo, pool
 
+<-------------------------------------------------------------------------------------------------------------------------->
 
 2) AnagramFinderProduction.java : this application would behave same as version1. But instead of stopping after one search, it would prompt the user to search for as many word as he likes until he 
 executes "exit" command. This application would take only one input, a filepath to the dictionary.Once loaded, it would present the user with a command line to enter word for searching anagrams.
@@ -45,10 +46,11 @@ AnagramFinder> exit
 
 hemil@hemil-Inspiron-13-7359:~/Realtor/Project$ 
 
+<------------------------------------------------------------------------------------------------------------------------->
 I tested the application against two dictionary sets. 
 for a dictionary containing 100K words, it loads in ~550-600ms and 479K words in ~880-920ms.
 Once the dictionary is loaded, it has the combination of all the words and list of their possible anagrams. Lookup for each word happens in constant time O(1). 
-For all the alternatives I thought, this approach provided the best performance.
+For all the alternatives I could think, this approach provided the best performance.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 For version 2, I have tried different approaches to find the most optimal solution. 
