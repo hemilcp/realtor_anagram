@@ -15,7 +15,7 @@ Execution finished in 552 ms
 
 loop, polo, pool
 
-<-------------------------------------------------------------------------------------------------------------------------->
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 2) AnagramFinderProduction.java : this application would behave same as version1. But instead of stopping after one search, it would prompt the user to search for as many word as he likes until he 
 executes "exit" command. This application would take only one input, a filepath to the dictionary.Once loaded, it would present the user with a command line to enter word for searching anagrams.
