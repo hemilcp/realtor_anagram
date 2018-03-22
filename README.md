@@ -4,6 +4,7 @@ This practise to find Anagrams from a dictionary has two versions:
 To run this version 1, follow as:
 
 hemil@hemil-Inspiron-13-7359:~/Realtor/Project$ javac AnagramFinder.java
+
 hemil@hemil-Inspiron-13-7359:~/Realtor/Project$ java AnagramFinder dictionary.txt loop
 
 Welcome to Anagram finder
