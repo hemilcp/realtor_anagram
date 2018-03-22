@@ -4,14 +4,14 @@ This practise to find Anagrams from a dictionary has two versions:
 To run this version 1, follow as:
 
 hemil@hemil-Inspiron-13-7359:~/Realtor/Project$ javac AnagramFinder.java
-
 hemil@hemil-Inspiron-13-7359:~/Realtor/Project$ java AnagramFinder dictionary.txt loop
 
-Welcome to the Anagram Finder
+Welcome to Anagram finder
 -----------------------------
-
 Execution finished in 552 ms
+
 3 anagrams found for loop
+
 loop, polo, pool
 
 
@@ -27,15 +27,21 @@ hemil@hemil-Inspiron-13-7359:~/Realtor/Project$ java AnagramFinderProduction dic
 Welcome to the Anagram Finder
 -----------------------------
 Dictionary loaded in 584 ms
+
 AnagramFinder> loop
+
 3 anagrams found for loop in 0 ms
+
 loop, polo, pool
 
 AnagramFinder> alerts
+
 8 anagrams found for alerts in 0 ms
+
 laster, lastre, rastle, relast, resalt, salter, slater, stelar
 
 AnagramFinder> exit
+
 hemil@hemil-Inspiron-13-7359:~/Realtor/Project$ 
 
 I tested the application against two dictionary sets. 
